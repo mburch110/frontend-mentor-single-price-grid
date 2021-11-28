@@ -1,0 +1,68 @@
+@use "../abstracts" as a;
+
+.c-header {
+  background: #fff;
+}
+
+.c-headline {
+  color: a.$cl-cyan;
+  font-size: 23px;
+  margin-bottom: 24px;
+}
+
+.c-header__sub-headline {
+  color: a.$cl-bright-yellow;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.c-header__text {
+  color: a.$cl-grayish-blue;
+}
+
+.c-header {
+  padding: 41px 40px 41px 40px;
+}
+
+.c-info-sub,
+.c-info-more {
+  padding: 41px 40px;
+}
+
+.c-main {
+  @media (a.$media-desktop) {
+    display: flex;
+  }
+}
+
+.c-main > * {
+  @media (a.$media-desktop) {
+    flex-basis: 100%;
+  }
+}
+
+.c-info-sub {
+  background: a.$cl-cyan;
+  color: #fff;
+}
+
+.c-info-sub__button {
+  display: inline-block;
+  text-decoration: none;
+  background: a.$cl-bright-yellow;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+.c-info-more {
+  background: a.$cl-light-cyan;
+  color: #fff;
+}
+
+.c-info-sub__text,
+.c-info-more__text {
+  color: a.$cl-lightlgray;
+}

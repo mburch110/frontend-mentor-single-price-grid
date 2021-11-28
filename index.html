@@ -9,6 +9,13 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | Single Price Grid Component</title>
 
     <style>
@@ -21,14 +28,40 @@
       }
     </style>
   </head>
-  <body>
-    Join our community 30-day, hassle-free money back guarantee Gain access to
-    our full library of tutorials along with expert code reviews. Perfect for
-    any developers who are serious about honing their skills. Monthly
-    Subscription &dollar;29 per month Full access for less than &dollar;1 a day
-    Sign Up Why Us Tutorials by industry experts Peer &amp; expert code review
-    Coding exercises Access to our GitHub repos Community forum Flashcard decks
-    New videos every week
+  <body class="l-body-grid">
+    <div class="l-wrapper-grid">
+      <header class="c-header">
+        <h1 class="c-headline">Join our community</h1>
+        <h2 class="c-header__sub-headline">30-day, hassle-free money back</h2>
+        <p class="c-header__text">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </header>
+      <main class="c-main">
+        <div class="c-info-sub">
+          <h2 class="c-info-sub__headline">Monthly Subscription</h2>
+          &dollar;29 per month
+          <p class="c-info-sub__text">
+            Full access for less than &dollar;1 a day
+          </p>
+          <a href="#" class="c-info-sub__button">Sign Up</a>
+        </div>
+        <div class="c-info-more">
+          <h2 class="c-info-more__headline">Why Us</h2>
+          <p class="c-info-more__text">
+            Tutorials by industry experts<br />
+            Peer &amp; expert code review<br />
+            Coding exercises <br />
+            Access to our GitHub repos <br />
+            Community forum <br />
+            Flashcard decks <br />
+            New videos every week
+          </p>
+        </div>
+      </main>
+    </div>
 
     <!-- <footer>
     <p class="attribution">
