@@ -9,7 +9,8 @@ html {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   margin-top: 0;
 }
 
@@ -71,7 +72,7 @@ p {
 
 .c-info-sub,
 .c-info-more {
-  padding: 41px 40px;
+  padding: 40px 45px 37px 40px;
 }
 
 @media (min-width: 750px) {
@@ -91,13 +92,34 @@ p {
   color: #fff;
 }
 
+.c-info-sub__headline {
+  margin-bottom: 17px;
+}
+
+.c-info-sub__price {
+  display: inline-block;
+  font-size: 31px;
+  margin-bottom: 5px;
+}
+
+.c-info-sub__duration {
+  display: inline-block;
+  line-height: 33px;
+  vertical-align: top;
+  color: #4fc4c2;
+}
+
+.c-info-sub__text {
+  margin-bottom: 26px;
+}
+
 .c-info-sub__button {
   display: inline-block;
   text-decoration: none;
   background: #c0df34;
   border-radius: 4px;
   color: #fff;
-  padding: 1em;
+  padding: 0.9em;
   width: 100%;
   text-align: center;
 }
@@ -110,4 +132,9 @@ p {
 .c-info-sub__text,
 .c-info-more__text {
   color: #e5eff5;
+}
+
+.c-info-more__text {
+  font-size: 14px;
+  line-height: 21px;
 }/*# sourceMappingURL=main.css.map */
