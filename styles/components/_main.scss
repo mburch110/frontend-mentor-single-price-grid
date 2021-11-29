@@ -81,7 +81,7 @@
   border-radius: 4px;
   color: #fff;
   padding: 0.9em;
-  width: 235px;
+  width: min(100%, 235px);
   @media (a.$media-desktop) {
     width: 100%;
   }
